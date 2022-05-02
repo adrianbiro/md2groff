@@ -23,7 +23,6 @@ s/\*\(.*\)\*\(.\)$/\n\.I\ \n\1\n\.R\ \2/g
 s/\*\(.*\)\*\(.\)/\n\.I\ \n\1\n\.R\2\n/g
 
 
-# clear; sed -f md2groff.sed test.md > zmaz.groff && groff -Tascii -man zmaz.groff | less
-
+# clear; sed -f md2groff.sed test.md | groff -Tascii -man | less -Rs
 
 
