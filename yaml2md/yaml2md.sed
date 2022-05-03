@@ -12,5 +12,5 @@ s/\ -\ title\:/\#\#/g
 s/entries\://g
 s/\-\ program\:/jq/g
 
-s/examples\:/\`\`\`json/g
+s/examples\:/\`\`\`bash/g
 /^output\:\ / s/$/\`\`\`/g
