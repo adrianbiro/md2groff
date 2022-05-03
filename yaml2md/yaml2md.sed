@@ -1,4 +1,6 @@
 s/^[[:space:]]\{2\}//g
+s/^[[:space:]]\{4\}//g
+
 s/---//g
 s/headline\:/\#\ /
 s/history\:\ |//g
@@ -12,5 +14,5 @@ s/\ -\ title\:/\#\#/g
 s/entries\://g
 s/\-\ program\:/jq/g
 
-s/examples\:/\`\`\`bash/g
-/^output\:\ / s/$/\`\`\`/g
+#s/examples\:/\`\`\`bash/g
+
